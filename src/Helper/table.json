@@ -1,0 +1,47 @@
+ [{
+         "sno": "1",
+         "title": "ps1",
+         "author": "raja",
+         "copies": "20",
+         "status": "available",
+         "actions": ""
+     },
+     {
+         "sno": "1",
+         "title": "ps1",
+         "author": "raja",
+         "copies": "20",
+         "status": "available",
+         "actions": ""
+     }, {
+         "sno": "1",
+         "title": "ps1",
+         "author": "raja",
+         "copies": "20",
+         "status": "available",
+         "actions": ""
+     }, {
+         "sno": "1",
+         "title": "ps1",
+         "author": "raja",
+         "copies": "20",
+         "status": "available",
+         "actions": ""
+     },
+     {
+         "sno": "1",
+         "title": "ps1",
+         "author": "raja",
+         "copies": "20",
+         "status": "available",
+         "actions": ""
+     },
+     {
+         "sno": "1",
+         "title": "ps1",
+         "author": "raja",
+         "copies": "20",
+         "status": "available",
+         "actions": ""
+     }
+ ]

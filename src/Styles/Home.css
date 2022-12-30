@@ -1,0 +1,79 @@
+.home-right {
+    width: 100%;
+
+    background-color: var(--bg);
+    height: 100%;
+}
+
+.home-head {
+    margin: 20px 40px;
+}
+
+.home-head h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    /* color: var(--input-border); */
+    color: var(--white);
+}
+
+.profile-head {
+    width: 700px;
+    height: 500px;
+    background-color: var(--input-background-dark);
+    box-shadow: var(--input-box-shadow);
+    border-radius: 10px;
+    margin: 40px 0px;
+    display: flex;
+
+}
+
+.emoji-head {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji-head h3 {
+    color: white;
+}
+
+.emoji-admin {
+    width: 677px;
+    height: 454px;
+}
+
+.emoji-user {
+    width: 400px;
+    height: 240px;
+}
+
+.emoji-content {
+    width: 390px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.emoji-content div span {
+    display: flex;
+    gap: 10px;
+}
+
+.emoji-content div span h2:first-child {
+
+    color: var(--font-light-blue2);
+    font-size: 1.2rem;
+}
+
+.emoji-content h2 {
+
+    color: var(--white);
+
+    margin: 20px 0px;
+    margin: 20px 0px;
+    font-size: 1.2rem;
+}

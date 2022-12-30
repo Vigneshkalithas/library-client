@@ -1,0 +1,57 @@
+.gl-btn {
+    width: 484px;
+    height: 40px;
+    background-color: var(--input-background);
+    border-radius: 10px;
+    border: none;
+    box-shadow: var(--input-box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.gl-btn-head {
+    margin: 50px 0px;
+}
+
+.border-head {
+    position: relative;
+
+}
+
+.border {
+    position: absolute;
+    left: -36px;
+
+
+}
+
+.sign-btn {
+    width: 484px;
+    height: 40px;
+    background-color: var(--primary-dark-blue);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin: 15px 0px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-family: 'Roboto';
+    letter-spacing: 0.2px;
+    margin: 15px 0px 50px 0px;
+}
+
+.forget-navigate {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forget-navigate p {
+    font-size: 0.8rem;
+    color: #808080;
+    text-decoration: underline;
+    cursor: pointer;
+}

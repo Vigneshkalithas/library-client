@@ -1,0 +1,93 @@
+.label-input-head {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.login-footer {
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+    cursor: pointer;
+}
+
+.login-footer p {
+    font-size: 0.9rem;
+    font-weight: 500;
+
+}
+
+.login-footer p span {
+    color: var(--input-border);
+    /* --primary-dark-green */
+}
+
+.login-footer p {
+    color: #C4C4C7;
+}
+
+.radio-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.radio-btn-head {
+    display: flex;
+    gap: 20px;
+}
+
+input[type="radio"] {
+    width: 15px;
+}
+
+
+
+/* studentDetails screen  */
+
+.student-details-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--input-background-dark);
+}
+
+
+.student-details {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 500px;
+    box-shadow: var(--input-box-shadow);
+
+}
+
+.student-details form {
+    padding: 0px 30px;
+}
+
+.modal-footer-student {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-footer-student button {
+
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.modal-footer-student :nth-child(1) {
+    background-color: #FFC107;
+}
+
+.modal-footer-student :nth-child(2) {
+    background-color: #0D6EFD;
+}

@@ -1,0 +1,46 @@
+.all-books-right {
+    width: 100%;
+    background-color: var(--bg);
+    height: 100%;
+}
+
+.allbooks-head {
+    margin: 20px 40px;
+}
+
+.allbooks-head h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--white);
+    /* color: var(--input-border); */
+}
+
+.req-btn {
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--green-btn);
+    color: white;
+    border: none;
+}
+
+.req-btn-disable {
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #00aacc;
+    color: white;
+    border: none;
+}
+
+.sub-btn {
+    background-color: #6C757D;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,95 @@
+.App {
+  display: flex;
+  width: 100%;
+}
+
+.App-child {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.head-home {
+  display: flex;
+  width: 100%;
+  /* min-height: 100vh; */
+}
+
+.Left {
+  min-width: 33%;
+  background-color: var(--primary-light-blue);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.Right {
+  min-width: 67%;
+  background-color: var(--bg);
+  height: 100%;
+  position: relative;
+}
+
+.form-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-inputs {
+  width: 464px;
+  height: 40px;
+  border: none;
+  /* border: 2px solid var(--input-border); */
+  /* background-color: var(--input-background); */
+  background-color: var(--input-background-dark);
+  box-shadow: var(--input-box-shadow);
+  /* box-shadow: 0 0 10px var(--input-border); */
+  border-radius: 10px;
+  padding: 0px 10px;
+  font-size: 0.9rem;
+  color: white;
+
+
+}
+
+.login-inputs:focus {
+  outline: none;
+}
+
+.login-label {
+  font-family: 'Roboto';
+  color: var(--label-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin: 10px 0px;
+
+}
+
+.login-btn {
+  width: 484px;
+  height: 40px;
+  background-color: var(--primary-dark-blue);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  margin: 15px 0px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: 'Roboto';
+  letter-spacing: 0.2px;
+}
+
+small {
+  color: #ff0000;
+  letter-spacing: 0.5px;
+  font-size: 0.7rem;
+  margin: 5px 0px;
+}
+
+.table-long {
+  width: 120%;
+}

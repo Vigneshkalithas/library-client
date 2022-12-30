@@ -1,0 +1,33 @@
+.left {
+    min-width: 33%;
+    background-color: var(--primary-light-blue);
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.leftscreeN {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .left-screen-logo {
+    width: 270px;
+    height: 95px;
+} */
+.left-screen-logo {
+    width: 80px;
+    height: 80px;
+}
+
+
+.leftscreeN h1 {
+    color: var(--font-dark-blue);
+    font-weight: 500;
+    text-transform: capitalize;
+
+}

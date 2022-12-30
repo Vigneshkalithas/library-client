@@ -1,0 +1,108 @@
+.manage-books-right {
+    width: 100%;
+    background-color: var(--bg);
+    height: 100%;
+}
+
+.manage-books-head {
+    margin: 20px 40px;
+}
+
+.head-manageBooks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-manageBooks h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--white);
+
+}
+
+.head-manageBooks button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--input-background-dark);
+    color: var(--primary-dark-blue);
+    border: none;
+    cursor: pointer;
+    box-shadow: var(--input-box-shadow);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-del-head {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.del-btn,
+.edit-btn {
+    width: 60px;
+    height: 35px;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: var(--input-box-shadow);
+
+}
+
+.del-btn {
+    background-color: var(--input-background-dark);
+    color: red;
+}
+
+.edit-btn {
+    background-color: var(--input-background-dark);
+    color: green;
+}
+
+.label-input-head {
+    display: flex;
+    gap: 10px;
+}
+
+.label-input-head input {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    background-color: var(--input-background-dark);
+    box-shadow: var(--input-box-shadow);
+    color: white;
+}
+
+.label-input-head input:focus {
+    outline: 1.5px solid var(--input-border);
+
+}
+
+.modal-content {
+    background-color: var(--bg) !important;
+    color: var(--white) !important;
+}
+
+
+
+.modal-footer {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * .5);
+    background-color: var(--bs-modal-footer-bg);
+    border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
+    border-bottom-right-radius: var(--bs-modal-inner-border-radius);
+    border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+    border: none !important;
+}

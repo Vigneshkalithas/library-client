@@ -1,0 +1,43 @@
+.notfound-head {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 100%;
+
+
+}
+
+.image404Head {
+    background-color: var(--font-dark-blue);
+    border-radius: 50%;
+    padding: 0.7rem;
+}
+
+.not-found h1 {
+    font-size: 18rem;
+    font-weight: 500;
+}
+
+.rotate {
+    padding: 1.3rem;
+    animation: rotation 5s;
+
+
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
