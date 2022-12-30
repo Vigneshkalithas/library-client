@@ -1,3 +1,3 @@
 export const Config = {
-  api: "http://localhost:5000",
+  api: "https://library-server-mninlqqvg-vigneshkalithas.vercel.app",
 };
