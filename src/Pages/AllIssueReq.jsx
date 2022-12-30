@@ -36,25 +36,25 @@ function AllIssueReq() {
           <div className="table-head">
             <table className="table-long">
               <tr>
-                <th>Student Id</th>
+                {/* <th>Student Id</th> */}
                 <th>Student Name</th>
                 <th>Department</th>
                 <th>Reg No</th>
                 <th>Book Id</th>
                 <th>Book Name</th>
-                <th>Availble Copies</th>
+                {/* <th>Availble Copies</th> */}
               </tr>
               {detail.map((x) => {
                 return (
                   <>
                     <tr>
-                      <td>{x.sId}</td>
+                      {/* <td>{x.sId}</td> */}
                       <td>{x.sname}</td>
                       <td>{x.dept}</td>
                       <td>{x.regno}</td>
                       <td>{x.bId}</td>
                       <td>{x.bname}</td>
-                      <td>{x.balancecopies}</td>
+                      {/* <td>{x.balancecopies}</td> */}
                     </tr>
                   </>
                 );
